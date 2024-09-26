@@ -52,10 +52,10 @@ Of The World
 
 .popular__title .popular__location
 Logan Mountain
-Canadá
+Canada
 
 Spike Forest
-Irland
+Ireland
 
 Garda Lake
 Italy
@@ -74,7 +74,7 @@ offers you harmony and peace and you
 can enjoy it with great comfort.
 
 .explore__name
-Paul Jeams
+Paul James
 
 
 ========== JOIN ==========
@@ -129,4 +129,4 @@ https://twitter.com/
 https://www.youtube.com/
 
 .footer__copy
-&#169; Copyright Bedimcode. All rights reserved
+&#169; Copyright. All rights reserved
