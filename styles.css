@@ -618,13 +618,49 @@ row-gap: 1rem;
 
 /*=============== SCROLL BAR ===============*/
 
+::-webkit-scrollbar{
+  width: 0.6rem;
+  border-radius: .5rem;
+  background-color: hsl(0, 0%, 10%);
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: hsl(0, 0%, 20%);
+  border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(0, 0%, 30%);
+}
+
+
+
 
 /*=============== SCROLL UP ===============*/
+.scrollup{
+  position: fixed;
+  bottom: -50%;
+  right: 1rem;
+  background-color: hsla(0, 0% , 100%, .1);
+  padding: 6px;
+  display: inline-flex;
+  font-size: 1.25rem;
+  color: var(--title-color);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px); /* for Safari */
+  transition: bottom .4s, transform .4s ;
+  z-index: var(--z-tooltip);
+}
 
+.scrollup:hover{
+  transform: translateY(-.25rem);
+}
 
 /* Show Scroll Up */
 
-
+.show-scroll{
+  bottom: 3rem;
+}
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
